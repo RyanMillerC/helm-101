@@ -1,1 +1,5 @@
-message: "Hello World!"
+messages:
+  - name: greeting
+    message: "Hello World!"
+  - name: greeting2
+    message: "Hello Everyone!"
