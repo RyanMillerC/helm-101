@@ -1,3 +1,4 @@
+{{ if .Values.deployConfigMap }}
 apiVersion: v1
 kind: ConfigMap
 metadata:
@@ -6,3 +7,4 @@ data:
   {{- range .Values.messages }}
   {{ .name }}: "{{ .message }}"
   {{- end }}
+{{ end }}

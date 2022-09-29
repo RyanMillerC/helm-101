@@ -1,3 +1,5 @@
+deployConfigMap: true
+
 # List of messages added to release-name-config ConfigMap
 messages:
     # ConfigMap field key name
