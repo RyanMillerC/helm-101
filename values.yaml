@@ -1,5 +1,9 @@
+# List of messages added to release-name-config ConfigMap
 messages:
+    # ConfigMap field key name
   - name: greeting
+    # ConfigMap field Value
     message: "Hello World!"
+
   - name: greeting2
     message: "Hello Everyone!"
